@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.divContainer {
+background: #3F7291;
+color: white;
+font-size: 20px;
+margin: 0 auto;
+width: 400px;
+margin-bottom: 10px;
+}
+.divItem {
+ text-align: center;
+ width: 100px;
+ background: #E0DE77;
+ padding: 5px;
+ /*border: 1px solid red;*/
+ border-style: solid;
+ border-width: 1px;
+ border-color: red;
+
+ /* el border-box= width - padding - border */
+ box-sizing: border-box;
+ margin-top: 5px;
+
+ display:inline-block;
+}
+.caja1 {
+    background: #54AADE;
+}
+.caja2 {
+    background: #913739;
+}
+
+/* Pseudoclases */
+.textos p:first-child {
+    color: red !important;
+}
+.textos p:last-child {
+    color: rgb(0, 255, 0);
+}
+/* nth */
+.textos p:nth-child(2) {
+    color: blue;
+}
+.textos p:nth-child(1) {
+    color: blue;
+}
+/* Cada tantos pintar del color*/
+.textos p:nth-child(3n + 1) {
+    color: magenta;
+}
+
+/* Pintar los pares */
+/*.textos p:nth-child(even){
+    color: rgb(255, 118, 118);
+}*/
+/* Pintar los impares */
+/*.textos p:nth-child(odd){
+    color: rgb(100, 111, 255);
+}*/
+a:link{
+    color:#54AADE;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+a:active{
+    color:#913739;
+}
+a:visited{
+    color:#E0DE77;
+}
+a:hover{
+    font-size: 1.1em;
+    color:#df5457;
+}
+
+/* Pseudoelementos */
+.parrafo {
+    color:#3F7291;
+}
+.parrafo::first-letter {
+    font-size: 2em;
+}
+.parrafo::before {
+    content: " * ";
+}
+.parrafo::after {
+    content: " * ";
+}
+.parrafo::selection{
+    color:#E0DE77;
+}
+.parrafo::first-line {
+    font-weight: bold;
+}

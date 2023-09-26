@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/*{
+    outline: 1px solid red;
+}
+*/
+:root{
+    --primary-color-text: #F5012A;
+    --primary-color-complement: #FA460D;
+    font-family: 'ubuntu';
+}
+.mainHeader{
+    text-align: center;
+}
+.mainHeader_title{
+    display: inline-block;
+}
+.mainHeader_img{
+    width: 20vw;
+    border-radius: 50%;
+}
+.mainCV{
+    margin: 0 auto;
+    width: 80vw;
+}
+.mainCV_informacion_title{
+    text-transform: capitalize;
+    font-size: 1.8em;
+    color: var(--primary-color-text);
+}
+.mainCV_informacion_item{
+    list-style: none;
+    font-size: 1.2em;
+    color: var(--primary-color-complement);
+}
+.mainCV_footer{
+    height: 4vh;
+    background: #DE0B98;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5em;
+}

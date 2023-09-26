@@ -1,0 +1,44 @@
+/*
+Selectores: Etiqueta/Clase/id/Universal/Root
+
+Style > id > clase > etiqueta
+*/
+/* Selector descendiente */
+div p{
+    color: green;
+}
+/* Selector hijo */
+p > strong {
+    color: orange;
+}
+/* Selector hermano adyacente */
+h1 + p {
+    color: blue;
+}
+/* Selector hermanos generales */
+h2 ~ p{
+    color: red;
+}
+.links a {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(65, 65, 161);
+    font-weight: bolder;
+}
+/* Selector por atributo */
+/* Igual al atributo */
+a[title='google'] {
+    color: blue;
+}
+/* Que contenga algo del atributo */
+a[href*='face'] {
+    color: pink;
+}
+/* Que comience con algo del atributo */
+a[href^='http://www.i'] {
+    color:aqua;
+}
+/* Que termine con algo del atributo */
+a[href$='er.com'] {
+    color: orangered;
+}

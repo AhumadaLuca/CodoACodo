@@ -1,0 +1,20 @@
+/* En CSS Definimos reglas */
+/**/
+/* Selector por etiqueta. Agarra a todos los "a" */
+a {
+color:chartreuse;
+}
+/* Selector por id. Agarra solo las etiquetas con el id "eq" */
+#eq {
+    color: red;
+}
+h3 {
+    color: blue;
+}
+/* ACA PASA ALGO LLAMADO ESPECIFICIDAD */
+/* Selector or id > selector por etiqueta > etiqueta */
+
+/* Selector de clase. Agarra solo a los que yo elija */
+.textoVerde {
+    color: green;
+}
